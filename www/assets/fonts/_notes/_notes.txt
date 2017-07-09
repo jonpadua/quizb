@@ -1,0 +1,24 @@
+29 April 2017
+CONTROLLERS
+===========
+Main.php
+
+
+
+VIEWS
+===========
+login.php
+header.php
+footer.php
+
+
+
+MODELS
+===========
+Members.php
+
+
+DATABASE
+============
+ALTER TABLE `members` ADD `mem_sessiontoken` VARCHAR(10) NULL AFTER `mem_regdate`, ADD `mem_lastlogtstamp` TIMESTAMP NULL AFTER `mem_logcode`;
+ALTER TABLE `members` CHANGE `mem_pwd` `mem_pwd` VARCHAR(32) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
