@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.quiz.builder" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>QuizB</name>
+<widget id="com.fp7phonegap.sample1" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>fp7sample1</name>
     <description>
-        QuizBuilder
+        A basic Framework7 template for PhoneGap.
     </description>
-    <author email=“jonpadua@yahoo.com” href="http://cordova.io">
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
     <content src="index.html" />
